@@ -35,6 +35,7 @@ error: Uncaught (in promise) TypeError: The "string" argument must be of type st
 ## Node
 ```
 $ cd node
+$ npm install
 $ npm run node
 
 > node@1.0.0 node
