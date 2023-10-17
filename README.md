@@ -1,5 +1,10 @@
 # oracledb-test
 
+```
+$ git clone https://github.com/chibat/oracledb-test.git
+$ cd oracledb-test
+```
+
 ## start oracle database
 
 ```
@@ -24,6 +29,7 @@ error: Uncaught (in promise) TypeError: The "string" argument must be of type st
     at ThinConnectionImpl.connect (file:///home/chiba/.cache/deno/npm/registry.npmjs.org/oracledb/6.2.0/lib/thin/connection.js:687:30)
     at eventLoopTick (ext:core/01_core.js:183:11)
     at async Object.getConnection (file:///home/chiba/.cache/deno/npm/registry.npmjs.org/oracledb/6.2.0/lib/oracledb.js:642:3)
+    at async file:///home/chiba/oracledb-test/deno/main.ts:4:14
 ```
 
 ## Node
