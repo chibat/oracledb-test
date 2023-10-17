@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "node": "node index.mjs",
+    "deno": "deno run --allow-sys --allow-env --allow-net index.mjs",
     "bun": "bun index.mjs"
   },
   "dependencies": {
