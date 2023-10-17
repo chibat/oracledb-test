@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "node index.mjs",
+    "bun": "bun index.mjs"
+  },
+  "dependencies": {
+    "oracledb": "^6.0.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
