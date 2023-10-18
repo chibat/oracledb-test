@@ -62,5 +62,28 @@ $ npm run node
 }
 ```
 
+## Bun
+```
+$ cd node
+$ npm run bun
 
+> node@1.0.0 bun
+> bun index.mjs
+
+{
+  metaData: [
+    {
+      name: "TABLE_NAME",
+      dbType: [DbType DB_TYPE_VARCHAR],
+      nullable: false,
+      byteSize: 128,
+      dbTypeName: "VARCHAR2",
+      fetchType: [DbType DB_TYPE_VARCHAR]
+    }
+  ],
+  rows: [
+    [ "REGIONS" ], [ "COUNTRIES" ], [ "CITIES" ], [ "CURRENCIES" ], [ "CURRENCIES_COUNTRIES" ]
+  ]
+}
+```
 
