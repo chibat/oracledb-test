@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "oracledb": "https://esm.sh/v135/oracledb@6.3.0"
+  },
+  "scopes": {
+    "https://esm.sh/v135/oracledb@6.3.0/": {
+      "node:crypto": "./crypto.ts"
+    }
+  }
+}

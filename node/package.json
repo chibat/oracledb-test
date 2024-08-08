@@ -9,7 +9,7 @@
     "bun": "bun index.mjs"
   },
   "dependencies": {
-    "oracledb": "^6.2.0"
+    "oracledb": "^6.3.0"
   },
   "author": "",
   "license": "ISC"

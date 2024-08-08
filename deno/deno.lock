@@ -2,25 +2,33 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:@types/oracledb": "npm:@types/oracledb@5.3.0",
-      "npm:oracledb@6.2.0": "npm:oracledb@6.2.0"
+      "npm:oracledb@6.3.0": "npm:oracledb@6.3.0"
     },
     "npm": {
-      "@types/node@18.16.19": {
-        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
-        "dependencies": {}
-      },
-      "@types/oracledb@5.3.0": {
-        "integrity": "sha512-j197SWt6yWTtymJK3AhzlsrQr2AWk0Da5ngyS4MnixKQA3itMCuC6+5h5X99sSmZQeb9229WRShkqS80v75YDw==",
-        "dependencies": {
-          "@types/node": "@types/node@18.16.19"
-        }
-      },
-      "oracledb@6.2.0": {
-        "integrity": "sha512-NP6Q3pukVhmowFszQhDfqaiC4RngcuSQ9Vj79quRw9f9s+R1Awo+I1Oexj+qYGFONRJz+Nl7TpkTUiXICbblGg==",
+      "oracledb@6.3.0": {
+        "integrity": "sha512-fr3U66QxgGXb5cs/ozLBQU50TMbZcBQEWvSaj2rJAXG8KRrsZcGOK8JTlZL1yJHeW8cSjOm6n/wTw3SJksGjDg==",
         "dependencies": {}
       }
     }
   },
-  "remote": {}
+  "remote": {
+    "https://esm.sh/browserify-aes@1.2.0": "a9133847aafc04db0ec1700f550ed274453e446b860c9fefba25d8c55ca092f1",
+    "https://esm.sh/v135/browserify-aes@1.2.0/denonext/browserify-aes.mjs": "4de4f18a9884752b5d9a6062f283303ec4f25b20010d045e6c92e1f6602dca87",
+    "https://esm.sh/v135/buffer-xor@1.0.3/denonext/buffer-xor.mjs": "1d0c7256551042568721f01cf2430a5dc66e486337c32fb12c59063fd0836d20",
+    "https://esm.sh/v135/cipher-base@1.0.4/denonext/cipher-base.mjs": "bbe8c7c3a60c8cb00e52ea0d899c41c0a6773fe061c5002f910466a780ce27d4",
+    "https://esm.sh/v135/evp_bytestokey@1.0.3/denonext/evp_bytestokey.mjs": "f293ec10c82de3f63982ee33793b65af40dad2980217ec74164daa073649042a",
+    "https://esm.sh/v135/hash-base@3.1.0/denonext/hash-base.mjs": "dc44ee29c53023ebb52779cc575c29688206bd2b3c76c4fc827448f44163ea94",
+    "https://esm.sh/v135/inherits@2.0.4/denonext/inherits.mjs": "8095f3d6aea060c904fb24ae50f2882779c0acbe5d56814514c8b5153f3b4b3b",
+    "https://esm.sh/v135/md5.js@1.3.5/denonext/md5.mjs": "ca03c9a2468b15590d8169e69d07a5a2cdd2b9bbf20b96f6bc7265557fb6d6c7",
+    "https://esm.sh/v135/oracledb@6.3.0": "b68cea70921fe60a9d2385162f8c91d9f3928c784fffe471b43f85069c8493ec",
+    "https://esm.sh/v135/oracledb@6.3.0/denonext/oracledb.mjs": "d84f0ea048841d3ea67096d36b39086571eb59471a4cc3b615c7c6744dc948c8",
+    "https://esm.sh/v135/readable-stream@3.6.2/denonext/readable-stream.mjs": "35fc04c3200b796d676d0e83607fcfc150048bdcc5bdb7d5d836b5921049788f",
+    "https://esm.sh/v135/safe-buffer@5.2.1/denonext/safe-buffer.mjs": "facbcb4f4622e13062978522fa12c42cae4e12f55b0e1d3fa1c4bc751bd827c7",
+    "https://esm.sh/v135/util-deprecate@1.0.2/denonext/util-deprecate.mjs": "f69f67cf655c38428b0934e0f7c865c055834a87cc3866b629d6b2beb21005e9"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:oracledb@6.3.0"
+    ]
+  }
 }
