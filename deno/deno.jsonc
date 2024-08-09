@@ -2,8 +2,9 @@
   "tasks": {
     "start": "deno task thin",
     "thin": "deno run --allow-sys --allow-env --allow-net main.js",
-    "thick": "LD_LIBRARY_PATH=/opt/oracle/instantclient_21_12 deno run --allow-sys --allow-env --allow-net --allow-ffi main.js thick",
-    "polyfills": "deno run --allow-sys --allow-env --allow-net --allow-ffi --import-map polyfills/import-map.json main.js"
+    "thick": "LD_LIBRARY_PATH=$HOME/opt/oracle/instantclient_21_12 deno run --allow-sys --allow-env --allow-net --allow-ffi main.js thick",
+    "polyfills": "deno run --allow-sys --allow-env --allow-net --allow-ffi --import-map polyfills/import-map.json main.js",
+    "install-oci": "./install-oci-x64.sh"
   },
   "imports": {
     "oracledb": "npm:oracledb@6.3.0"
