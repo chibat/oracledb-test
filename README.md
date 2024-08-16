@@ -87,3 +87,7 @@ $ npm run bun
 }
 ```
 
+
+## Issues
+* denoland/deno#20924
+* oracle/node-oracledb#1258
