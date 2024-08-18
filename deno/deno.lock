@@ -2,11 +2,11 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:oracledb@6.3.0": "npm:oracledb@6.3.0"
+      "npm:oracledb@6.6.0": "npm:oracledb@6.6.0"
     },
     "npm": {
-      "oracledb@6.3.0": {
-        "integrity": "sha512-fr3U66QxgGXb5cs/ozLBQU50TMbZcBQEWvSaj2rJAXG8KRrsZcGOK8JTlZL1yJHeW8cSjOm6n/wTw3SJksGjDg==",
+      "oracledb@6.6.0": {
+        "integrity": "sha512-T3dx+o3j+tVN53wQyr4yGTmoPHLy+a2V8yb1T2PmWrsj3ZlSt2Yu1BgV2yTDqnmBZYpRi/I3yJXRCOHHD7PiyA==",
         "dependencies": {}
       }
     }
@@ -28,7 +28,7 @@
   },
   "workspace": {
     "dependencies": [
-      "npm:oracledb@6.3.0"
+      "npm:oracledb@6.6.0"
     ]
   }
 }

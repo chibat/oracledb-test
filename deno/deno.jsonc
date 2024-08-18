@@ -7,6 +7,6 @@
     "install-oci": "./install-oci-x64.sh"
   },
   "imports": {
-    "oracledb": "npm:oracledb@6.3.0"
+    "oracledb": "npm:oracledb@6.6.0"
   }
 }
